@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Text;
 
-namespace LinqToDB.SqlProvider
+namespace LinqToDB_2_9_6.SqlProvider
 {
 	using Mapping;
 	using SqlQuery;

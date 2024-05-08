@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Globalization;
 using System.Threading.Tasks;
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.DataProvider;
-using LinqToDB.DataProvider.SqlServer;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
+using LinqToDB_2_9_6.Mapping;
 using NUnit.Framework;
 
 namespace Tests.UserTests

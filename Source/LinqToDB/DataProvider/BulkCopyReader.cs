@@ -6,7 +6,7 @@ using System.Data.Common;
 using System.Globalization;
 using System.Linq;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	using Common;
 	using Mapping;

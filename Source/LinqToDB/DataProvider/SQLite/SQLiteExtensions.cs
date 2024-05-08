@@ -1,12 +1,12 @@
-using LinqToDB.Data;
-using LinqToDB.Linq;
-using LinqToDB.SqlProvider;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.SqlProvider;
 using System;
 using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	public interface ISQLiteExtensions
 	{

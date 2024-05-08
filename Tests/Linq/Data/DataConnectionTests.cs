@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 using NUnit.Framework;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.DataProvider;
-using LinqToDB.DataProvider.DB2;
-using LinqToDB.DataProvider.SqlServer;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider;
+using LinqToDB_2_9_6.DataProvider.DB2;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
 
 namespace Tests.Data
 {

@@ -3,8 +3,8 @@ using System.Data;
 using System.IO;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Data;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
 
 #if !NETSTANDARD1_6 && !NETSTANDARD2_0
 using LinqToDB.DataProvider.Access;
@@ -331,7 +331,7 @@ namespace Tests._Create
 
 		void FirebirdAction(IDbConnection connection)
 		{
-			using (var conn = LinqToDB.DataProvider.Firebird.FirebirdTools.CreateDataConnection(connection))
+			using (var conn = LinqToDB_2_9_6.DataProvider.Firebird.FirebirdTools.CreateDataConnection(connection))
 			{
 				conn.Execute(@"
 					UPDATE PERSON
@@ -349,7 +349,7 @@ namespace Tests._Create
 
 		static void SQLiteAction(IDbConnection connection)
 		{
-			using (var conn = LinqToDB.DataProvider.SQLite.SQLiteTools.CreateDataConnection(connection))
+			using (var conn = LinqToDB_2_9_6.DataProvider.SQLite.SQLiteTools.CreateDataConnection(connection))
 			{
 				conn.Execute(@"
 					UPDATE AllTypes
@@ -371,7 +371,7 @@ namespace Tests._Create
 
 		static void InformixAction(IDbConnection connection)
 		{
-			using (var conn = LinqToDB.DataProvider.Informix.InformixTools.CreateDataConnection(connection))
+			using (var conn = LinqToDB_2_9_6.DataProvider.Informix.InformixTools.CreateDataConnection(connection))
 			{
 				conn.Execute(@"
 					UPDATE AllTypes

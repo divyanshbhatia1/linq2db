@@ -5,7 +5,7 @@ using System.Reflection;
 
 using Microsoft.SqlServer.Server;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	using Common;
 	using Extensions;

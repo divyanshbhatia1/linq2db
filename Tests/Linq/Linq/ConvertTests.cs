@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using NUnit.Framework;
 using Tests.Model;
@@ -640,7 +640,7 @@ namespace Tests.Linq
 #endif
 
 			Assert.GreaterOrEqual(0.01m,
-				Math.Abs(LinqToDB.Common.Convert<TTo, decimal>.From(expected) - LinqToDB.Common.Convert<TTo, decimal>.From(r)));
+				Math.Abs(LinqToDB_2_9_6.Common.Convert<TTo, decimal>.From(expected) - LinqToDB_2_9_6.Common.Convert<TTo, decimal>.From(r)));
 		}
 
 		//[CLSCompliant(false)]

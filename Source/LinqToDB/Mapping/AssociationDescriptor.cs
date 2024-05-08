@@ -5,7 +5,7 @@ using System.Reflection;
 
 using JNotNull = JetBrains.Annotations.NotNullAttribute;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	using Common;
 	using Extensions;

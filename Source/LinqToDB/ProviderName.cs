@@ -2,7 +2,7 @@
 
 using JetBrains.Annotations;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 #pragma warning disable 1574
 	/// <summary>

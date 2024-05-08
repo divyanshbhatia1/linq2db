@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Expressions;
-using LinqToDB.Extensions;
-using LinqToDB.Mapping;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SqlQuery;
 using Newtonsoft.Json;
 using NUnit.Framework;
 

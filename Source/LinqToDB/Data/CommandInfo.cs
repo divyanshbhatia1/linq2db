@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using Common;
 	using Expressions;

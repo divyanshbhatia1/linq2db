@@ -1,8 +1,8 @@
 ﻿using System;
-using LinqToDB.Common;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.DataProvider.SapHana
+namespace LinqToDB_2_9_6.DataProvider.SapHana
 {
 	using System.Data;
 	using System.IO;

@@ -11,14 +11,14 @@ using System.ServiceModel;
 using System.ServiceModel.Description;
 #endif
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Extensions;
-using LinqToDB.Linq;
-using LinqToDB.Mapping;
-using LinqToDB.Tools;
-using LinqToDB.Tools.Comparers;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools;
+using LinqToDB_2_9_6.Tools.Comparers;
 
 #if !NETSTANDARD1_6 && !NETSTANDARD2_0
 using LinqToDB.ServiceModel;

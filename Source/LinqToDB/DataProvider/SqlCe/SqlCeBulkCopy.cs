@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LinqToDB.DataProvider.SqlCe
+namespace LinqToDB_2_9_6.DataProvider.SqlCe
 {
 	using Data;
 

@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	using Common;
 

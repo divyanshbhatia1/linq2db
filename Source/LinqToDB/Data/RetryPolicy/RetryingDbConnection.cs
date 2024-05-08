@@ -5,10 +5,10 @@ using System.Data.Common;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Data.RetryPolicy
+namespace LinqToDB_2_9_6.Data.RetryPolicy
 {
 	using Configuration;
-	using LinqToDB.Async;
+	using LinqToDB_2_9_6.Async;
 
 	class RetryingDbConnection : DbConnection, IProxy<DbConnection>, IDisposable, ICloneable, IAsyncDbConnection
 	{

@@ -1,8 +1,8 @@
 ﻿using System;
-using LinqToDB.Mapping;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SqlQuery;
 
-namespace LinqToDB.SqlProvider
+namespace LinqToDB_2_9_6.SqlProvider
 {
 	internal static class SqlOptimizerExtensions
 	{

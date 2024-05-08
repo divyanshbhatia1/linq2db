@@ -6,9 +6,9 @@ using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Text;
 
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	using Data;
 	using Expressions;

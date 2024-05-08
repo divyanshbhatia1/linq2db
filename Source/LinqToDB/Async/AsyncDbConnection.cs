@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Async
+namespace LinqToDB_2_9_6.Async
 {
 	/// <summary>
 	/// Implements <see cref="IAsyncDbConnection"/> wrapper over <see cref="IDbConnection"/> instance with

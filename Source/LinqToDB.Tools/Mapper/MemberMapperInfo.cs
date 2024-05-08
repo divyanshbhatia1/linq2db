@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Tools.Mapper
+namespace LinqToDB_2_9_6.Tools.Mapper
 {
 	public class MemberMapperInfo
 	{

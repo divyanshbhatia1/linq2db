@@ -1,8 +1,8 @@
 ﻿using System;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 
@@ -10,7 +10,7 @@ namespace Tests.UserTests
 {
 	using System.Linq;
 
-	using LinqToDB.DataProvider.Firebird;
+	using LinqToDB_2_9_6.DataProvider.Firebird;
 
 	[TestFixture]
 	public class Issue464Tests : TestBase

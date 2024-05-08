@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	/// <summary>
 	/// Interface to override default implementation of LINQ To DB async operations.

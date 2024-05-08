@@ -5,13 +5,13 @@ using System.Text;
 using System.Net;
 using System.Net.NetworkInformation;
 
-namespace LinqToDB.DataProvider.PostgreSQL
+namespace LinqToDB_2_9_6.DataProvider.PostgreSQL
 {
 	using Common;
 	using SqlQuery;
 	using SqlProvider;
 	using System.Globalization;
-	using LinqToDB.Extensions;
+	using LinqToDB_2_9_6.Extensions;
 
 	public class PostgreSQLSqlBuilder : BasicSqlBuilder
 	{

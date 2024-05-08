@@ -2,12 +2,12 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB;
-using LinqToDB.DataProvider.Oracle;
-using LinqToDB.Expressions;
-using LinqToDB.Linq;
-using LinqToDB.Linq.Builder;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.DataProvider.Oracle;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Linq.Builder;
+using LinqToDB_2_9_6.SqlQuery;
 
 using NUnit.Framework;
 

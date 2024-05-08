@@ -1,4 +1,4 @@
-﻿namespace LinqToDB
+﻿namespace LinqToDB_2_9_6
 {
 	/// <summary>
 	/// Defines join type. Used with join LINQ helpers.

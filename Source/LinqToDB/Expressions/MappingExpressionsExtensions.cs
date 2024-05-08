@@ -1,9 +1,9 @@
-﻿using LinqToDB.Common;
+﻿using LinqToDB_2_9_6.Common;
 using System;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Extensions
+namespace LinqToDB_2_9_6.Extensions
 {
 	static class MappingExpressionsExtensions
 	{

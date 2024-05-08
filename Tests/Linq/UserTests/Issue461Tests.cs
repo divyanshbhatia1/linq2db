@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using LinqToDB.Data;
+using LinqToDB_2_9_6.Data;
 
 using NUnit.Framework;
 
 namespace Tests.UserTests
 {
-	using LinqToDB;
+	using LinqToDB_2_9_6;
 
 	[TestFixture]
 	public class Issue461Tests : TestBase

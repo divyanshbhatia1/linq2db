@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using LinqToDB.Common;
+using LinqToDB_2_9_6.Common;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	public class SqlValue : ISqlExpression, IValueContainer
 	{

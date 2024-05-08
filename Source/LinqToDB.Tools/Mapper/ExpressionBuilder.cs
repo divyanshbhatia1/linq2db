@@ -11,7 +11,7 @@ using static System.Linq.Expressions.Expression;
 
 // ReSharper disable TailRecursiveCall
 
-namespace LinqToDB.Tools.Mapper
+namespace LinqToDB_2_9_6.Tools.Mapper
 {
 	using Expressions;
 	using Extensions;

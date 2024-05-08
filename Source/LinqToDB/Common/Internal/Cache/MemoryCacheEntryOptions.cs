@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LinqToDB.Common.Internal.Cache
+namespace LinqToDB_2_9_6.Common.Internal.Cache
 {
     /// <summary>
     /// Represents the cache options applied to an entry of the <see cref="IMemoryCache"/> instance.

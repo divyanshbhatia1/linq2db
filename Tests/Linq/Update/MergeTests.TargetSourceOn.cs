@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB.Data;
+using LinqToDB_2_9_6.Data;
 
 using NUnit.Framework;
 
 namespace Tests.xUpdate
 {
-	using LinqToDB;
-	using LinqToDB.Mapping;
+	using LinqToDB_2_9_6;
+	using LinqToDB_2_9_6.Mapping;
 	using Model;
 
 	// tests for target/source/match condition configuration methods, not covered by other tests

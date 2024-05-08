@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	using Async;
 	using Builder;
@@ -16,7 +16,7 @@ namespace LinqToDB.Linq
 	using Common.Internal.Cache;
 	using Data;
 	using Extensions;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using SqlQuery;
 
 	static partial class QueryRunner

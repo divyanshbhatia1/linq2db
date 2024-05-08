@@ -2,7 +2,7 @@
 using System.Text;
 using System.Data.Linq;
 
-namespace LinqToDB.DataProvider.MySql
+namespace LinqToDB_2_9_6.DataProvider.MySql
 {
 	using Mapping;
 	using SqlQuery;

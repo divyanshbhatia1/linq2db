@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LinqToDB.DataProvider.MySql
+namespace LinqToDB_2_9_6.DataProvider.MySql
 {
 	using Data;
 

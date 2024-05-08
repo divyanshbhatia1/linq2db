@@ -10,12 +10,12 @@ using System.Net.NetworkInformation;
 using System.Xml;
 using System.Xml.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.PostgreSQL;
-using LinqToDB.Mapping;
-using LinqToDB.Tools.Comparers;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.PostgreSQL;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools.Comparers;
 
 using NpgsqlTypes;
 
@@ -605,7 +605,7 @@ namespace Tests.DataProvider
 		{
 			using (var db = new TestDataConnection(context))
 			{
-				var table = new LinqToDB.SqlQuery.SqlTable(db.MappingSchema, typeof(PostgreSQLSpecific.SequenceTest1));
+				var table = new LinqToDB_2_9_6.SqlQuery.SqlTable(db.MappingSchema, typeof(PostgreSQLSpecific.SequenceTest1));
 				Assert.That(table.SequenceAttributes, Is.Not.Null);
 				Assert.That(table.SequenceAttributes.Length, Is.EqualTo(1));
 
@@ -619,7 +619,7 @@ namespace Tests.DataProvider
 		{
 			using (var db = new TestDataConnection(context))
 			{
-				var table = new LinqToDB.SqlQuery.SqlTable(db.MappingSchema, typeof(PostgreSQLSpecific.SequenceTest2));
+				var table = new LinqToDB_2_9_6.SqlQuery.SqlTable(db.MappingSchema, typeof(PostgreSQLSpecific.SequenceTest2));
 				Assert.That(table.SequenceAttributes.IsNullOrEmpty());
 
 				db.Insert(new PostgreSQLSpecific.SequenceTest2 { Value = "SeqValue" });
@@ -1504,7 +1504,7 @@ namespace Tests.DataProvider
 
 		// TODO: function names should be escaped by linq2db, but it is not implemented yet
 		[Sql.TableFunction("\"TestTableFunctionSchema\"")]
-		public LinqToDB.ITable<PostgreSQLTests.AllTypes> GetAllTypes()
+		public LinqToDB_2_9_6.ITable<PostgreSQLTests.AllTypes> GetAllTypes()
 		{
 			var methodInfo = typeof(TestPgFunctions).GetMethod("GetAllTypes", new Type[0]);
 
@@ -1518,7 +1518,7 @@ namespace Tests.DataProvider
 		}
 
 		[Sql.TableFunction("\"TestTableFunction\"")]
-		public LinqToDB.ITable<TestScalarTableFunctionResult> TestScalarTableFunction(int? param1)
+		public LinqToDB_2_9_6.ITable<TestScalarTableFunctionResult> TestScalarTableFunction(int? param1)
 		{
 			var methodInfo = typeof(TestPgFunctions).GetMethod("TestScalarTableFunction", new[] { typeof(int?) });
 
@@ -1526,7 +1526,7 @@ namespace Tests.DataProvider
 		}
 
 		[Sql.TableFunction("\"TestTableFunction1\"")]
-		public LinqToDB.ITable<TestRecordTableFunctionResult> TestRecordTableFunction(int? param1, int? param2)
+		public LinqToDB_2_9_6.ITable<TestRecordTableFunctionResult> TestRecordTableFunction(int? param1, int? param2)
 		{
 			var methodInfo = typeof(TestPgFunctions).GetMethod("TestRecordTableFunction", new[] { typeof(int?), typeof(int?) });
 
@@ -1552,7 +1552,7 @@ namespace Tests.DataProvider
 		}
 
 		[Sql.TableFunction("jsonb_to_recordset")]
-		public LinqToDB.ITable<TRecord> DynamicTableFunction<TRecord>(string json)
+		public LinqToDB_2_9_6.ITable<TRecord> DynamicTableFunction<TRecord>(string json)
 			where TRecord : class
 		{
 			var methodInfo = typeof(TestPgFunctions).GetMethod("DynamicTableFunction", new [] { typeof(string) });

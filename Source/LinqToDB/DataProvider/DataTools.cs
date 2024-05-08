@@ -3,7 +3,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	public class DataTools
 	{

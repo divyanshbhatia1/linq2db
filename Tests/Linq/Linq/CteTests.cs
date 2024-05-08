@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB;
-using LinqToDB.Expressions;
-using LinqToDB.Mapping;
-using LinqToDB.Tools;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools;
 using NUnit.Framework;
 
 namespace Tests.Linq

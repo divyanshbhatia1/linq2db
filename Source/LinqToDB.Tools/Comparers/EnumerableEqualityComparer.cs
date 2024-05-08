@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LinqToDB.Tools.Comparers
+namespace LinqToDB_2_9_6.Tools.Comparers
 {
 	class EnumerableEqualityComparer : EqualityComparer<IEnumerable>
 	{

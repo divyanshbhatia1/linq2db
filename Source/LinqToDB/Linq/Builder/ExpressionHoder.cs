@@ -2,7 +2,7 @@
 
 #pragma warning disable 649
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	class ExpressionHoder<TP,TE>
 	{

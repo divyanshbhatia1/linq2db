@@ -1,5 +1,5 @@
-﻿using LinqToDB;
-using LinqToDB.DataProvider.SqlServer;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
 using NUnit.Framework;
 using System.Linq;
 using Tests.Model;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using Async;
 	using Linq;

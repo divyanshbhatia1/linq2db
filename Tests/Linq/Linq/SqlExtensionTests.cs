@@ -2,10 +2,10 @@
 using System.Globalization;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.SqlQuery;
 
-using static LinqToDB.ProviderName;
+using static LinqToDB_2_9_6.ProviderName;
 
 using NUnit.Framework;
 

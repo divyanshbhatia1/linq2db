@@ -1,4 +1,4 @@
-namespace LinqToDB.Configuration
+namespace LinqToDB_2_9_6.Configuration
 {
 	/// <summary>
 	/// Name-value pair.

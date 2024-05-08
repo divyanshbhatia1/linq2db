@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using Linq;
 	using Common;

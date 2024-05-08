@@ -4,7 +4,7 @@ using System.Linq;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Tools
+namespace LinqToDB_2_9_6.Tools
 {
 	using Common;
 	using Data;

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	using Common;
 	using Expressions;
-	using LinqToDB.Extensions;
+	using LinqToDB_2_9_6.Extensions;
 	using Linq.Builder;
 	using Mapping;
 	using Reflection;

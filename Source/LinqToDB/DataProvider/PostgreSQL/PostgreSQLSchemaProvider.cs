@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
 
-namespace LinqToDB.DataProvider.PostgreSQL
+namespace LinqToDB_2_9_6.DataProvider.PostgreSQL
 {
 	using Common;
 	using Data;

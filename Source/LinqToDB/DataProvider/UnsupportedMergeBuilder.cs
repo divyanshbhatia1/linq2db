@@ -1,6 +1,6 @@
-﻿using LinqToDB.Data;
+﻿using LinqToDB_2_9_6.Data;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	class UnsupportedMergeBuilder<TTarget, TSource> : BasicMergeBuilder<TTarget, TSource>
 		where TTarget : class

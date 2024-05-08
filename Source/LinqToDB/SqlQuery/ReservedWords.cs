@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
-	using LinqToDB.Extensions;
+	using LinqToDB_2_9_6.Extensions;
 
 	public static class ReservedWords
 	{

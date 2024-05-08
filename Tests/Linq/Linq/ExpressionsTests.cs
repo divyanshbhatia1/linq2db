@@ -4,9 +4,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-using LinqToDB;
-using LinqToDB.Linq;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.SqlQuery;
 using NUnit.Framework;
 
 namespace Tests.Linq
@@ -736,13 +736,13 @@ namespace Tests.Linq
 			}
 		}
 
-		[LinqToDB.Mapping.Table("AllTypes")]
+		[LinqToDB_2_9_6.Mapping.Table("AllTypes")]
 		class AllTypes
 		{
-			[LinqToDB.Mapping.Column] public int    ID              { get; set; }
-			[LinqToDB.Mapping.Column] public int?   intDataType     { get; set; }
-			[LinqToDB.Mapping.Column] public string varcharDataType { get; set; }
-			[LinqToDB.Mapping.Column] public string char20DataType  { get; set; }
+			[LinqToDB_2_9_6.Mapping.Column] public int    ID              { get; set; }
+			[LinqToDB_2_9_6.Mapping.Column] public int?   intDataType     { get; set; }
+			[LinqToDB_2_9_6.Mapping.Column] public string varcharDataType { get; set; }
+			[LinqToDB_2_9_6.Mapping.Column] public string char20DataType  { get; set; }
 		}
 
 		[Sql.Expression("COALESCE({0}, {0})", ServerSideOnly = true)]

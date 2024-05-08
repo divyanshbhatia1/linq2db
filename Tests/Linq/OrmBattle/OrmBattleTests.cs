@@ -18,7 +18,7 @@ using System.Linq;
 
 using NUnit.Framework;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using static Tests.Model.Northwind;
 

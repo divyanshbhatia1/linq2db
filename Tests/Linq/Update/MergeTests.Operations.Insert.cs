@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 
 using Tests.Model;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using NUnit.Framework;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Mapping;
 
 namespace Tests.xUpdate
 {

@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.Common;
 using System.Linq;
 
-namespace LinqToDB.DataProvider.DB2
+namespace LinqToDB_2_9_6.DataProvider.DB2
 {
 	using Common;
 	using Data;

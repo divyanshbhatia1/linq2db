@@ -4,7 +4,7 @@ using System.Data.Common;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Data.RetryPolicy
+namespace LinqToDB_2_9_6.Data.RetryPolicy
 {
 	using Configuration;
 	using DbCommandProcessor;

@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.Common;
 using System.Linq.Expressions;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	using Data;
 	using Common;

@@ -7,7 +7,7 @@ using System.Reflection;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	using Common;
 	using Configuration;

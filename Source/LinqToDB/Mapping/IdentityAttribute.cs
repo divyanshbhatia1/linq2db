@@ -1,6 +1,6 @@
 using System;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	// TODO: V2 - any reason why we have Serializable on this class?
 	/// <summary>

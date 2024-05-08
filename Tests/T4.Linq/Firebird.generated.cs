@@ -12,14 +12,14 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
 
 namespace FirebirdDataContext
 {
-	public partial class TESTDB25DB : LinqToDB.Data.DataConnection
+	public partial class TESTDB25DB : LinqToDB_2_9_6.Data.DataConnection
 	{
 		public ITable<ALLTYPE>           ALLTYPES           { get { return this.GetTable<ALLTYPE>(); } }
 		public ITable<CamelCaseName>     CamelCaseNames     { get { return this.GetTable<CamelCaseName>(); } }

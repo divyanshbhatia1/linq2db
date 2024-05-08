@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	using Expressions;
 	using Extensions;

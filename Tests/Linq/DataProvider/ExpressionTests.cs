@@ -4,10 +4,10 @@ using System.Linq.Expressions;
 
 using NUnit.Framework;
 
-using LinqToDB.Data;
-using LinqToDB.DataProvider;
-using LinqToDB.DataProvider.SqlServer;
-using LinqToDB.DataProvider.SQLite;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
+using LinqToDB_2_9_6.DataProvider.SQLite;
 
 namespace Tests.DataProvider
 {

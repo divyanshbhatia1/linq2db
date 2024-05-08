@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Data.SqlTypes;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
 
 using Microsoft.SqlServer.Types;
 

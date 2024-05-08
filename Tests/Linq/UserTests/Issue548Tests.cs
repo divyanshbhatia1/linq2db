@@ -2,15 +2,15 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-using LinqToDB.Extensions;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 
 namespace Tests.UserTests
 {
 	/// <summary>
-	/// Test checks for race conditions in <see cref="MappingSchema"/> around <see cref="LinqToDB.Metadata.IMetadataReader"/>
+	/// Test checks for race conditions in <see cref="MappingSchema"/> around <see cref="LinqToDB_2_9_6.Metadata.IMetadataReader"/>
 	/// https://github.com/linq2db/linq2db/issues/548
 	/// </summary>
 	[TestFixture]
@@ -131,8 +131,8 @@ namespace Tests.UserTests
 
 		/// <summary>
 		/// <see cref="Test2Internal1(MappingSchema, Semaphore, Semaphore)"/> and <see cref="Test2Internal2(MappingSchema, Semaphore, Semaphore)"/>
-		/// are creating two instances of <see cref="FluentMappingBuilder"/> and have a chance to race in <see cref="MappingSchema.AddMetadataReader(LinqToDB.Metadata.IMetadataReader)"/>
-		/// one <see cref="LinqToDB.Metadata.IMetadataReader"/> could be lost
+		/// are creating two instances of <see cref="FluentMappingBuilder"/> and have a chance to race in <see cref="MappingSchema.AddMetadataReader(LinqToDB_2_9_6.Metadata.IMetadataReader)"/>
+		/// one <see cref="LinqToDB_2_9_6.Metadata.IMetadataReader"/> could be lost
 		/// </summary>
 		/// <param name="ms"></param>
 		/// <param name="semaphore1"></param>

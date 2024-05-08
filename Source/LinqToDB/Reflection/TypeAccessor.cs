@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Reflection
+namespace LinqToDB_2_9_6.Reflection
 {
 	[DebuggerDisplay("Type = {" + nameof(Type) + "}")]
 	public abstract class TypeAccessor

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace LinqToDB.Tools.Comparers
+namespace LinqToDB_2_9_6.Tools.Comparers
 {
 	class BitArrayEqualityComparer : EqualityComparer<BitArray>
 	{

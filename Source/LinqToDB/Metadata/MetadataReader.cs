@@ -5,7 +5,7 @@ using System.Reflection;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	/// <summary>
 	/// Aggregation metadata reader, that just delegates all calls to nested readers.

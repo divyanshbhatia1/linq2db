@@ -4,9 +4,9 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.SqlQuery;
 
 namespace Tests.Model
 {

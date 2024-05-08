@@ -7,11 +7,11 @@ using System.Xml.Linq;
 
 using FirebirdSql.Data.FirebirdClient;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.Firebird;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.Firebird;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 

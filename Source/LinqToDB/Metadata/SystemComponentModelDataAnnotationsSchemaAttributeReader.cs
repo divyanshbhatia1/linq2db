@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	using Common;
 	using Mapping;

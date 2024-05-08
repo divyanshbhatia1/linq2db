@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
 	using Mapping;
 

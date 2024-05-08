@@ -6,11 +6,11 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.SQLite;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.SQLite;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 

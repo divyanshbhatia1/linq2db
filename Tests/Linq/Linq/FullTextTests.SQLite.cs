@@ -1,6 +1,6 @@
-﻿using LinqToDB;
-using LinqToDB.DataProvider.SQLite;
-using LinqToDB.Mapping;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.DataProvider.SQLite;
+using LinqToDB_2_9_6.Mapping;
 using NUnit.Framework;
 using System.Data.Common;
 using System.Linq;

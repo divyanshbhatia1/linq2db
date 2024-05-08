@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using LinqToDB.Mapping;
-using LinqToDB.Tools.Mapper;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools.Mapper;
 
 using NUnit.Framework;
 

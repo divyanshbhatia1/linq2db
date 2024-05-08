@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-namespace LinqToDB.DataProvider.Sybase
+namespace LinqToDB_2_9_6.DataProvider.Sybase
 {
 	using SqlQuery;
 	using SqlProvider;

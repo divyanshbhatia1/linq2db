@@ -1,7 +1,7 @@
 ﻿using System.Linq;
-using LinqToDB;
-using LinqToDB.Mapping;
-using LinqToDB.Tools.Comparers;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools.Comparers;
 using NUnit.Framework;
 
 namespace Tests.Playground

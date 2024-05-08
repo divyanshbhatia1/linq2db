@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	/// <summary>
 	/// Maps databse table or view to a class or interface.
@@ -61,7 +61,7 @@ namespace LinqToDB.Mapping
 		/// Otherwise all supported members of scalar type will be used:
 		/// - public instance fields and properties;
 		/// - explicit interface implmentation properties.
-		/// Also see <seealso cref="LinqToDB.Common.Configuration.IsStructIsScalarType"/> and <seealso cref="ScalarTypeAttribute"/>.
+		/// Also see <seealso cref="LinqToDB_2_9_6.Common.Configuration.IsStructIsScalarType"/> and <seealso cref="ScalarTypeAttribute"/>.
 		/// Default value: <c>true</c>.
 		/// </summary>
 		public bool   IsColumnAttributeRequired { get; set; }

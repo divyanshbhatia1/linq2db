@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Threading;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.SQLite;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.SQLite;
 using NUnit.Framework;
 
 namespace Tests.UserTests
 {
-	using LinqToDB;
-	using LinqToDB.Mapping;
+	using LinqToDB_2_9_6;
+	using LinqToDB_2_9_6.Mapping;
 
 	[TestFixture]
 	public class Issue1585Tests : TestBase

@@ -1,4 +1,4 @@
-﻿namespace LinqToDB
+﻿namespace LinqToDB_2_9_6
 {
 	/// <summary>
 	/// This is internal API and is not intended for use by Linq To DB applications.

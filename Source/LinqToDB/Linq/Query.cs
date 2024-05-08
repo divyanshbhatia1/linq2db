@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 // ReSharper disable StaticMemberInGenericType
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	using Async;
 	using Builder;
 	using Data;
 	using Common;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using Mapping;
 	using SqlQuery;
 	using SqlProvider;

@@ -2,7 +2,7 @@ using System;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	using Data;
 	using Data.RetryPolicy;
@@ -63,7 +63,7 @@ namespace LinqToDB.Common
 			/// <summary>
 			/// Controls behavior of linq2db when there is no updateable fields in Update query:
 			/// - if <c>true</c> - query not executed and Update operation returns 0 as number of affected records;
-			/// - if <c>false</c> - <see cref="LinqToDB.Linq.LinqException"/> will be thrown.
+			/// - if <c>false</c> - <see cref="LinqToDB_2_9_6.Linq.LinqException"/> will be thrown.
 			/// Default value: <c>false</c>.
 			/// </summary>
 			public static bool IgnoreEmptyUpdate;
@@ -71,7 +71,7 @@ namespace LinqToDB.Common
 			/// <summary>
 			/// Controls behavior of linq2db when multiple queries required to load requested data:
 			/// - if <c>true</c> - multiple queries allowed;
-			/// - if <c>false</c> - <see cref="LinqToDB.Linq.LinqException"/> will be thrown.
+			/// - if <c>false</c> - <see cref="LinqToDB_2_9_6.Linq.LinqException"/> will be thrown.
 			/// This option required, if you want to select related collections, e.g. using <see cref="LinqExtensions.LoadWith{T}(ITable{T}, System.Linq.Expressions.Expression{Func{T, object}})"/> method.
 			/// Default value: <c>false</c>.
 			/// </summary>
@@ -178,7 +178,7 @@ namespace LinqToDB.Common
 			/// Default value: <c>false</c>.
 			/// <para />
 			/// It is not recommended to enable this option as it could lead to severe slowdown. Better approach will be
-			/// to call <see cref="LinqToDB.Linq.Query{T}.ClearCache"/> method to cleanup cache after queries, that produce severe memory leaks you need to fix.
+			/// to call <see cref="LinqToDB_2_9_6.Linq.Query{T}.ClearCache"/> method to cleanup cache after queries, that produce severe memory leaks you need to fix.
 			/// <para />
 			/// <a href="https://github.com/linq2db/linq2db/issues/256">More details</a>.
 			/// </summary>

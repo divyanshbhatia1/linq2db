@@ -2,8 +2,8 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-using LinqToDB;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 

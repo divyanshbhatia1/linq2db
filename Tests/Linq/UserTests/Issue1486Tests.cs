@@ -1,6 +1,6 @@
-﻿using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.DataProvider;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider;
 using NUnit.Framework;
 using System.Data;
 using System.Linq;

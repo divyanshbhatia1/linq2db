@@ -1,4 +1,4 @@
-﻿using LinqToDB.DataProvider.Firebird;
+﻿using LinqToDB_2_9_6.DataProvider.Firebird;
 using System;
 
 namespace Tests

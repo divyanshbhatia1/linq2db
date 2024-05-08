@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Tests.xUpdate
 {
-	using LinqToDB;
+	using LinqToDB_2_9_6;
 	using Model;
 
 	// tests for query hints

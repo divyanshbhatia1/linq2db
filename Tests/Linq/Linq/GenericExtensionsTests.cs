@@ -5,7 +5,7 @@ using System.Reflection;
 
 using JetBrains.Annotations;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using NUnit.Framework;
 

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB.Expressions;
+using LinqToDB_2_9_6.Expressions;
 
 using NUnit.Framework;
 

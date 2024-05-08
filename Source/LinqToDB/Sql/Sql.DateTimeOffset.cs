@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using SqlQuery;
 	using Expressions;

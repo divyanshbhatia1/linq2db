@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Configuration
+namespace LinqToDB_2_9_6.Configuration
 {
 	/// <summary>
 	/// Proxy object interface.

@@ -6,7 +6,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Collections.Generic;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using Mapping;
 

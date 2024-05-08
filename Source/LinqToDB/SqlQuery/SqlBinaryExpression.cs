@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	[Serializable, DebuggerDisplay("SQL = {" + nameof(SqlText) + "}")]
 	public class SqlBinaryExpression : ISqlExpression

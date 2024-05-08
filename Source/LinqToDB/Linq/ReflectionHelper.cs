@@ -5,9 +5,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 
 	class ReflectionHelper
 	{

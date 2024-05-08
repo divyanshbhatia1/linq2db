@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	public class SqlJoinedTable : IQueryElement, ISqlExpressionWalkable, ICloneableElement
 	{

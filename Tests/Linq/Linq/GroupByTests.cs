@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using NUnit.Framework;
 
@@ -15,7 +15,7 @@ namespace Tests.Linq
 		[Test]
 		public void Simple1([DataSources] string context)
 		{
-			LinqToDB.Common.Configuration.Linq.PreloadGroups = true;
+			LinqToDB_2_9_6.Common.Configuration.Linq.PreloadGroups = true;
 
 			using (var db = GetDataContext(context))
 			{
@@ -45,7 +45,7 @@ namespace Tests.Linq
 		[Test]
 		public void Simple2([DataSources] string context)
 		{
-			LinqToDB.Common.Configuration.Linq.PreloadGroups = false;
+			LinqToDB_2_9_6.Common.Configuration.Linq.PreloadGroups = false;
 
 			using (var db = GetDataContext(context))
 			{

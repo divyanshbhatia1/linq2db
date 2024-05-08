@@ -12,14 +12,14 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
 
 namespace SybaseDataContext
 {
-	public partial class TestDataDB : LinqToDB.Data.DataConnection
+	public partial class TestDataDB : LinqToDB_2_9_6.Data.DataConnection
 	{
 		public ITable<AllType>           AllTypes            { get { return this.GetTable<AllType>(); } }
 		public ITable<Child>             Children            { get { return this.GetTable<Child>(); } }

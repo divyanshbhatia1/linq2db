@@ -1,6 +1,6 @@
-﻿using LinqToDB.Data;
+﻿using LinqToDB_2_9_6.Data;
 
-namespace LinqToDB.DataProvider.SapHana
+namespace LinqToDB_2_9_6.DataProvider.SapHana
 {
 	class SapHanaMergeBuilder<TTarget, TSource> : BasicMergeBuilder<TTarget, TSource>
 		where TTarget : class

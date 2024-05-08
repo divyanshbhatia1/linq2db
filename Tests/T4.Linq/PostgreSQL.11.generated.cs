@@ -16,16 +16,16 @@ using System.Linq.Expressions;
 using System.Net.NetworkInformation;
 using System.Reflection;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
 
 using NpgsqlTypes;
 
 namespace PostreSQL11DataContext
 {
-	public partial class TestdbDB : LinqToDB.Data.DataConnection
+	public partial class TestdbDB : LinqToDB_2_9_6.Data.DataConnection
 	{
 		public ITable<_testsamename>                  _testsamename             { get { return this.GetTable<_testsamename>(); } }
 		public ITable<AllType>                        AllTypes                  { get { return this.GetTable<AllType>(); } }

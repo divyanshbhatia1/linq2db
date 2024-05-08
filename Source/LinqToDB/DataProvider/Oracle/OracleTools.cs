@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Linq;
 
-namespace LinqToDB.DataProvider.Oracle
+namespace LinqToDB_2_9_6.DataProvider.Oracle
 {
 	using Common;
 	using Configuration;

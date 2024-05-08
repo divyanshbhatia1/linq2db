@@ -7,11 +7,11 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.DB2;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.DB2;
+using LinqToDB_2_9_6.Mapping;
 
 using IBM.Data.DB2Types;
 

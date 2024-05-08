@@ -1,4 +1,4 @@
-﻿namespace LinqToDB.SchemaProvider
+﻿namespace LinqToDB_2_9_6.SchemaProvider
 {
 	/// <summary>
 	/// Contains table information, passed to <see cref="GetSchemaOptions.LoadTable"/> delegate.

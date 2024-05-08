@@ -8,14 +8,14 @@ using System.Reflection;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	using Common;
 	using DataProvider;
 	using Extensions;
 	using Mapping;
 	using SqlQuery;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 
 	partial class ExpressionBuilder
 	{

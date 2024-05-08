@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace LinqToDB.DataProvider.DB2
+namespace LinqToDB_2_9_6.DataProvider.DB2
 {
 	using Mapping;
 	using SqlQuery;

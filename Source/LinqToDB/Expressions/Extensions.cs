@@ -5,9 +5,9 @@ using System.Linq.Expressions;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
-	using LinqToDB.Extensions;
+	using LinqToDB_2_9_6.Extensions;
 
 	public static class Extensions
 	{

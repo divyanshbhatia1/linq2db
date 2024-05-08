@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	/// <summary>
 	/// Bulk copy implementation type.

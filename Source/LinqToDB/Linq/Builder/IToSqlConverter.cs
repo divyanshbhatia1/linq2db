@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6.SqlQuery;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	public interface IToSqlConverter
 	{

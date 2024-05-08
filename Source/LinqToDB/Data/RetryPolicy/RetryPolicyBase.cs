@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Data.RetryPolicy
+namespace LinqToDB_2_9_6.Data.RetryPolicy
 {
 	using Common;
 

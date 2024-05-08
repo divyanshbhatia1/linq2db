@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Linq;
-using LinqToDB.Common;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	using Mapping;
 

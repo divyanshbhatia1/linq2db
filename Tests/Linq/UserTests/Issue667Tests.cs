@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB.Tools.Comparers;
+using LinqToDB_2_9_6.Tools.Comparers;
 
 using NUnit.Framework;
 

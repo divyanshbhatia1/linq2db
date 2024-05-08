@@ -3,7 +3,7 @@ using System.Data;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using DataProvider;
 	using Linq;
@@ -30,7 +30,7 @@ namespace LinqToDB.Data
 		/// </summary>
 		/// <typeparam name="T">Mapping class type.</typeparam>
 		/// <param name="instance">Instance object for <paramref name="methodInfo"/> method or null for static method.</param>
-		/// <param name="methodInfo">Method, decorated with expression attribute, based on <see cref="LinqToDB.Sql.TableFunctionAttribute"/>.</param>
+		/// <param name="methodInfo">Method, decorated with expression attribute, based on <see cref="LinqToDB_2_9_6.Sql.TableFunctionAttribute"/>.</param>
 		/// <param name="parameters">Parameters for <paramref name="methodInfo"/> method.</param>
 		/// <returns>Queryable source.</returns>
 		public ITable<T> GetTable<T>(object instance, MethodInfo methodInfo, params object[] parameters)

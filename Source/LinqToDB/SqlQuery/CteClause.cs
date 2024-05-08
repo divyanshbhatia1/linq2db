@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using LinqToDB.Common;
+using LinqToDB_2_9_6.Common;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	[DebuggerDisplay("CTE({CteID}, {Name})")]
 	public class CteClause : IQueryElement, ICloneableElement, ISqlExpressionWalkable

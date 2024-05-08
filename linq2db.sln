@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{885042E3-18EA-4927-B1CF-5E0E3DBD1C00}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{885042E3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{AF93451E-198C-4A94-8EB4-C330D886E102}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqToDB", "Source\LinqToDB\LinqToDB.csproj", "{0E4E9A56-F285-4067-ADAA-392ACB9CAAA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqToDB_2_9_6", "Source\LinqToDB\LinqToDB_2_9_6.csproj", "{0E4E9A56-F285-4067-ADAA-392ACB9CAAA7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DF8DE665-05A2-4ACF-9799-8FC35E7F1525}"
 	ProjectSection(SolutionItems) = preProject

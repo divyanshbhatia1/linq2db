@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Linq.Expressions;
 
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
 	/// <summary>
 	/// Used for controlling query caching of custom SQL Functions.

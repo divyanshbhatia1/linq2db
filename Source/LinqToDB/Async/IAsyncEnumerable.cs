@@ -2,7 +2,7 @@
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Async
+namespace LinqToDB_2_9_6.Async
 {
 	///// <summary>
 	///// Asynchronous version of the IEnumerable&lt;T&gt; interface, allowing elements of the

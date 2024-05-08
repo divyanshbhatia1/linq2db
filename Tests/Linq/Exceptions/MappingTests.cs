@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Linq;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 

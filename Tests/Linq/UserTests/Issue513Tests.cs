@@ -6,7 +6,7 @@ using NUnit.Framework;
 
 namespace Tests.UserTests
 {
-	using LinqToDB;
+	using LinqToDB_2_9_6;
 	using Model;
 
 	[TestFixture]

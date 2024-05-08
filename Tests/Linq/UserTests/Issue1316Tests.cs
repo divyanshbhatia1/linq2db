@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 
@@ -10,7 +10,7 @@ namespace Tests.UserTests
 {
 	/// <summary>
 	/// Test fixes to Issue #1305.
-	/// Before fix fields in derived tables were added first in the column order by <see cref="DataExtensions.CreateTable{T}(IDataContext, string, string, string, string, string, LinqToDB.SqlQuery.DefaultNullable)"/>.
+	/// Before fix fields in derived tables were added first in the column order by <see cref="DataExtensions.CreateTable{T}(IDataContext, string, string, string, string, string, LinqToDB_2_9_6.SqlQuery.DefaultNullable)"/>.
 	/// </summary>
 	[TestFixture]
 	public class Issue1316Tests : TestBase

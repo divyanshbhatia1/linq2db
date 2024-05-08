@@ -1,4 +1,4 @@
-﻿namespace LinqToDB.DataProvider.SqlCe
+﻿namespace LinqToDB_2_9_6.DataProvider.SqlCe
 {
 	public static class SqlCeConfiguration
 	{

@@ -6,10 +6,10 @@ using System.Threading;
 
 using JetBrains.Annotations;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.Firebird;
-using LinqToDB.SchemaProvider;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.Firebird;
+using LinqToDB_2_9_6.SchemaProvider;
 
 namespace Tests
 {

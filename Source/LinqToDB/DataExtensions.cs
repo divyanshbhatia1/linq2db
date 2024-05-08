@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using Extensions;
 	using Linq;
@@ -45,7 +45,7 @@ namespace LinqToDB
 		/// <typeparam name="T">Mapping class type.</typeparam>
 		/// <param name="dataContext">Data connection context.</param>
 		/// <param name="instance">Instance object for <paramref name="methodInfo"/> method or null for static method.</param>
-		/// <param name="methodInfo">Method, decorated with expression attribute, based on <see cref="LinqToDB.Sql.TableFunctionAttribute"/>.</param>
+		/// <param name="methodInfo">Method, decorated with expression attribute, based on <see cref="LinqToDB_2_9_6.Sql.TableFunctionAttribute"/>.</param>
 		/// <param name="parameters">Parameters for <paramref name="methodInfo"/> method.</param>
 		/// <returns>Queryable source.</returns>
 		[LinqTunnel]

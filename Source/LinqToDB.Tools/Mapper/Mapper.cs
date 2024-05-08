@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Tools.Mapper
+namespace LinqToDB_2_9_6.Tools.Mapper
 {
 	/// <summary>
 	/// Maps an object of <i>TFrom</i> type to an object of <i>TTo</i> type.

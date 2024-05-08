@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	using SqlProvider;
 

@@ -3,10 +3,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.SqlServer;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
+using LinqToDB_2_9_6.Extensions;
 
 namespace Tests.Model
 {

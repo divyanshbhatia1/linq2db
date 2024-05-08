@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
 
-namespace LinqToDB.Async
+namespace LinqToDB_2_9_6.Async
 {
 	using Linq;
 

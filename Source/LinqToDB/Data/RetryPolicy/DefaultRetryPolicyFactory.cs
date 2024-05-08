@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Data.RetryPolicy
+namespace LinqToDB_2_9_6.Data.RetryPolicy
 {
 	using DataProvider.SqlServer;
 

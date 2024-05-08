@@ -6,7 +6,7 @@ using System.Security;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.DataProvider.Informix
+namespace LinqToDB_2_9_6.DataProvider.Informix
 {
 	using Common;
 	using Data;

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Extensions
+namespace LinqToDB_2_9_6.Extensions
 {
 	using Common;
 	using Mapping;

@@ -2,7 +2,7 @@
 using System.Reflection;
 using JetBrains.Annotations;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	public interface IMetadataReader
 	{

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Linq;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.SqlQuery;
 
 namespace Tests
 {

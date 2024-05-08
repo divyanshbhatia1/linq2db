@@ -6,9 +6,9 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-using LinqToDB;
-using LinqToDB.Linq;
-using LinqToDB.Async;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Async;
 
 using NUnit.Framework;
 

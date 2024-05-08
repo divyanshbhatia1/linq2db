@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Mapping;
 using NUnit.Framework;
-using LinqToDB.Data;
+using LinqToDB_2_9_6.Data;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Tests.Model;

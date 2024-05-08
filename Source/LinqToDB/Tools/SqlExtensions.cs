@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Tools
+namespace LinqToDB_2_9_6.Tools
 {
 	[PublicAPI]
 	public static class SqlExtensions

@@ -4,7 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.DataProvider.Informix
+namespace LinqToDB_2_9_6.DataProvider.Informix
 {
 	using SqlQuery;
 	using SqlProvider;
