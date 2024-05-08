@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	/// <summary>
 	/// Defines the base class for the namespace exceptions.

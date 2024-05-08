@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.Properties {
+namespace LinqToDB_2_9_6.Properties {
     using System;
     
     

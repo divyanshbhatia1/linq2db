@@ -6,7 +6,7 @@ using JetBrains.Annotations;
 
 using JBNotNull = JetBrains.Annotations.NotNullAttribute;
 
-namespace LinqToDB.Tools
+namespace LinqToDB_2_9_6.Tools
 {
 	using Comparers;
 	using Mapping;

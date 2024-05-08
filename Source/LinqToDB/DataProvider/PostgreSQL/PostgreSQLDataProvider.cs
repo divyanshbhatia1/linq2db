@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Net;
 using System.Net.NetworkInformation;
 
-namespace LinqToDB.DataProvider.PostgreSQL
+namespace LinqToDB_2_9_6.DataProvider.PostgreSQL
 {
 	using Data;
 	using Common;

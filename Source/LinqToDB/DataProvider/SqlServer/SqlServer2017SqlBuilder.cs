@@ -1,4 +1,4 @@
-﻿namespace LinqToDB.DataProvider.SqlServer
+﻿namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	using SqlProvider;
 

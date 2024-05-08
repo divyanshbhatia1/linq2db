@@ -7,12 +7,12 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading;
 
-using LinqToDB.Common;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.SqlQuery;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using Extensions;
 	using Mapping;
 

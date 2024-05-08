@@ -1,11 +1,11 @@
-﻿using LinqToDB;
+﻿using LinqToDB_2_9_6;
 using NUnit.Framework;
 using System;
 using System.Linq;
 
 namespace Tests.Linq
 {
-	using LinqToDB.Mapping;
+	using LinqToDB_2_9_6.Mapping;
 
 	[TestFixture]
 	public class DateTimeOffsetTests : TestBase

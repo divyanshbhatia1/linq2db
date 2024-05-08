@@ -7,12 +7,12 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
-using LinqToDB.SchemaProvider;
-using LinqToDB.Tools;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SchemaProvider;
+using LinqToDB_2_9_6.Tools;
 
 using NUnit.Framework;
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.DataProvider.SapHana
+namespace LinqToDB_2_9_6.DataProvider.SapHana
 {
 	using SqlQuery;
 	using SqlProvider;

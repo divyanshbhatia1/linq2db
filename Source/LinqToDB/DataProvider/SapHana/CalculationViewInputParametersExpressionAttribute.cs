@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Mapping;
 
-namespace LinqToDB.DataProvider.SapHana
+namespace LinqToDB_2_9_6.DataProvider.SapHana
 {
 	using System.Globalization;
 	using System.Linq.Expressions;

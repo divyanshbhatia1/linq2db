@@ -2,7 +2,7 @@
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	/// <summary>
 	/// Value converter to <typeparamref name="TTo"/> type.

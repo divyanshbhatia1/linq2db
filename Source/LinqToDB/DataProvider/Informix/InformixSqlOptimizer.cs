@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.DataProvider.Informix
+namespace LinqToDB_2_9_6.DataProvider.Informix
 {
 	using Extensions;
 	using SqlProvider;

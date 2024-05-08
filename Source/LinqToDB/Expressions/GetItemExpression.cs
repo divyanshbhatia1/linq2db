@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
 	class GetItemExpression : Expression
 	{

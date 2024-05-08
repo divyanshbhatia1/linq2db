@@ -2,7 +2,7 @@
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	/// <summary>
 	/// Empty array instance helper.

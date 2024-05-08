@@ -4,7 +4,7 @@ using System.Data.Common;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Async
+namespace LinqToDB_2_9_6.Async
 {
 	/// <summary>
 	/// Provides reflection-based <see cref="DbConnection"/> wrapper with async operations support.

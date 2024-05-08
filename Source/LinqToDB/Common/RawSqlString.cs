@@ -1,7 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	/// <summary>
 	///     A string representing a raw SQL query. This type enables overload resolution between

@@ -4,11 +4,11 @@ using System.IO;
 using System.Text;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Expressions;
-using LinqToDB.Mapping;
-using LinqToDB.Metadata;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Metadata;
 
 using NUnit.Framework;
 

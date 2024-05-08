@@ -5,10 +5,10 @@ using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	using Common;
-	using LinqToDB.Extensions;
+	using LinqToDB_2_9_6.Extensions;
 
 	public class SqlDataType : ISqlExpression
 	{

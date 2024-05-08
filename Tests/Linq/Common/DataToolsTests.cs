@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-using LinqToDB.DataProvider;
+using LinqToDB_2_9_6.DataProvider;
 
 using NUnit.Framework;
 

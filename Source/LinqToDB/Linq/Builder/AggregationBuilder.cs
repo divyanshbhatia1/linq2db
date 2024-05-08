@@ -4,9 +4,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using Extensions;
 	using Mapping;
 	using SqlQuery;

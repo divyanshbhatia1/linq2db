@@ -4,12 +4,12 @@ using System.Linq;
 using System.Linq.Expressions;
 using JetBrains.Annotations;
 
-using PN = LinqToDB.ProviderName;
+using PN = LinqToDB_2_9_6.ProviderName;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using Linq;
-	using LinqToDB.Common;
+	using LinqToDB_2_9_6.Common;
 	using SqlQuery;
 
 	public static class StringAggregateExtensions

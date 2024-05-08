@@ -4,10 +4,10 @@ using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB;
-using LinqToDB.Linq;
-using LinqToDB.Mapping;
-using LinqToDB.SqlProvider;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SqlProvider;
 
 using NUnit.Framework;
 

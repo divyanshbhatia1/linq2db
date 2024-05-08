@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	/// <summary>
 	/// Specifies value generation sequence for mapped property of field.

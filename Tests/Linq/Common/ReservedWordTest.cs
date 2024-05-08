@@ -1,5 +1,5 @@
-﻿using LinqToDB;
-using LinqToDB.SqlQuery;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.SqlQuery;
 using NUnit.Framework;
 
 namespace Tests.Common

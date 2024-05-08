@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using Expressions;
 	using Extensions;

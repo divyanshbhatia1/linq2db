@@ -4,10 +4,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using JetBrains.Annotations;
-using LinqToDB.Expressions;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	/// <summary>
 	/// Fluent mapping entity builder.

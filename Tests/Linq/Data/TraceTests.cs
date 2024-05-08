@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using NUnit.Framework;
 
-using LinqToDB.Data;
+using LinqToDB_2_9_6.Data;
 
 namespace Tests.Data
 {

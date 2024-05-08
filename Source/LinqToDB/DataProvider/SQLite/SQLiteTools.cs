@@ -4,7 +4,7 @@ using System.Data;
 using System.IO;
 using System.Reflection;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	using Common;
 	using Configuration;

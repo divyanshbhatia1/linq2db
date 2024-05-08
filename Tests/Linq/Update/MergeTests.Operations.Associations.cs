@@ -3,7 +3,7 @@ using System.Linq;
 
 using Tests.Model;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using NUnit.Framework;
 

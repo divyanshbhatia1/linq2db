@@ -12,7 +12,7 @@ using System.Xml;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Extensions
+namespace LinqToDB_2_9_6.Extensions
 {
 	using Expressions;
 

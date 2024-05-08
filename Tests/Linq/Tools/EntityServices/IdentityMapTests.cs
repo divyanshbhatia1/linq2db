@@ -5,8 +5,8 @@ using NUnit.Framework;
 
 namespace Tests.Tools.EntityServices
 {
-	using LinqToDB.Common;
-	using LinqToDB.Tools.EntityServices;
+	using LinqToDB_2_9_6.Common;
+	using LinqToDB_2_9_6.Tools.EntityServices;
 	using Model;
 
 	[TestFixture]

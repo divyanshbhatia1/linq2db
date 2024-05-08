@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.DataProvider.Firebird;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.DataProvider.Firebird;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 

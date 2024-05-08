@@ -14,7 +14,7 @@ using System.Xml.Linq;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	using Common;
 	using Expressions;

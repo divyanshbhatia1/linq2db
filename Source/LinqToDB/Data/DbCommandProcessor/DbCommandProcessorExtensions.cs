@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Data.DbCommandProcessor
+namespace LinqToDB_2_9_6.Data.DbCommandProcessor
 {
 	/// <summary>
 	/// Extension point adds possibility to change implementation of DbCommand methods ExecuteScalar, ExecuteNonQuery, ExecureReader and their Async equivalents.

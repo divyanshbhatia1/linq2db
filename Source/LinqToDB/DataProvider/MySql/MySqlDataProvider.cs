@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace LinqToDB.DataProvider.MySql
+namespace LinqToDB_2_9_6.DataProvider.MySql
 {
 	using Data;
 	using Common;

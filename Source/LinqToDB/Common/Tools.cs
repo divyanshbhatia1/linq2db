@@ -5,7 +5,7 @@ using System.Reflection;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	/// <summary>
 	/// Various general-purpose helpers.

@@ -8,7 +8,7 @@ using JetBrains.Annotations;
 
 using JANotNull = JetBrains.Annotations.NotNullAttribute;
 
-namespace LinqToDB.Tools.Mapper
+namespace LinqToDB_2_9_6.Tools.Mapper
 {
 	using Extensions;
 	using Mapping;

@@ -4,7 +4,7 @@ using System.Data;
 using System.IO;
 using System.Reflection;
 
-namespace LinqToDB.DataProvider.Sybase
+namespace LinqToDB_2_9_6.DataProvider.Sybase
 {
 	using Data;
 	using Common;

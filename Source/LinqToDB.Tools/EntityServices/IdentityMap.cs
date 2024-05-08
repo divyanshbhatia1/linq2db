@@ -6,7 +6,7 @@ using System.Linq;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Tools.EntityServices
+namespace LinqToDB_2_9_6.Tools.EntityServices
 {
 	using Common;
 

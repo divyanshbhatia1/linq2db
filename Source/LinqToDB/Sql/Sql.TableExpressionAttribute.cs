@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Mapping;
 
 // ReSharper disable CheckNamespace
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using SqlQuery;
 

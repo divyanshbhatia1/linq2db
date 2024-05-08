@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Extensions;
 
 using NUnit.Framework;
 

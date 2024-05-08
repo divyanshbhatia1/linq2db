@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 
-namespace LinqToDB.DataProvider.SqlCe
+namespace LinqToDB_2_9_6.DataProvider.SqlCe
 {
 	using Common;
 	using Mapping;

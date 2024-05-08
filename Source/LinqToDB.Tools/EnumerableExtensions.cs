@@ -5,11 +5,11 @@ using System.Text;
 
 using JetBrains.Annotations;
 
-using LinqToDB.Extensions;
-using LinqToDB.Mapping;
-using LinqToDB.Reflection;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Reflection;
 
-namespace LinqToDB.Tools
+namespace LinqToDB_2_9_6.Tools
 {
 	public static class EnumerableExtensions
 	{

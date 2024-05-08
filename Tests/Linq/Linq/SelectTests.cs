@@ -6,10 +6,10 @@ using System.Linq.Expressions;
 using System.Windows.Forms;
 #endif
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Reflection;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Reflection;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 

@@ -5,15 +5,15 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Expressions;
-using LinqToDB.Extensions;
-using LinqToDB.Mapping;
-using LinqToDB.SqlProvider;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SqlProvider;
+using LinqToDB_2_9_6.SqlQuery;
 
-namespace LinqToDB.DataProvider.PostgreSQL
+namespace LinqToDB_2_9_6.DataProvider.PostgreSQL
 {
 	class PostgreSQLBulkCopy : BasicBulkCopy
 	{

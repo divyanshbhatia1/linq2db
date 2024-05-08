@@ -12,14 +12,14 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
 
 namespace DB2DataContext
 {
-	public partial class TESTDATADB : LinqToDB.Data.DataConnection
+	public partial class TESTDATADB : LinqToDB_2_9_6.Data.DataConnection
 	{
 		public ITable<DB2ADMIN_ALLTYPE>           ALLTYPES            { get { return this.GetTable<DB2ADMIN_ALLTYPE>(); } }
 		public ITable<DB2ADMIN_Child>             Children            { get { return this.GetTable<DB2ADMIN_Child>(); } }

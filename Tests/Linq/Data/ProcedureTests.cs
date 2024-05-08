@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Data;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
 
 using NUnit.Framework;
 

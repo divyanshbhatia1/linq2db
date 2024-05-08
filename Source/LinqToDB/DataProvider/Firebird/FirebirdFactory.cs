@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.DataProvider.Firebird
+namespace LinqToDB_2_9_6.DataProvider.Firebird
 {
 	using System.Collections.Generic;
 	using Configuration;

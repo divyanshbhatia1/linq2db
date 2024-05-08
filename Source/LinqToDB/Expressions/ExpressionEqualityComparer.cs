@@ -8,13 +8,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using LinqToDB.Extensions;
-using LinqToDB.Linq;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.Linq;
 
 // ReSharper disable SwitchStatementMissingSomeCases
 // ReSharper disable ForCanBeConvertedToForeach
 // ReSharper disable LoopCanBeConvertedToQuery
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
     /// <summary>
     ///     This API supports the Entity Framework Core infrastructure and is not intended to be used

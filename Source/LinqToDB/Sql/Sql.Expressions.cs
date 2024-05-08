@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using JetBrains.Annotations;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using Common;
 	using Expressions;

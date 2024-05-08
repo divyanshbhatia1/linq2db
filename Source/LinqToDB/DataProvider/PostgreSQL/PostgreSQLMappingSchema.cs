@@ -2,9 +2,9 @@
 using System.Net.NetworkInformation;
 using System.Text;
 
-namespace LinqToDB.DataProvider.PostgreSQL
+namespace LinqToDB_2_9_6.DataProvider.PostgreSQL
 {
-	using LinqToDB.SqlQuery;
+	using LinqToDB_2_9_6.SqlQuery;
 	using Mapping;
 	using System.Data.Linq;
 

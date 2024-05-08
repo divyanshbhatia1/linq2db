@@ -31,7 +31,7 @@ FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS
 SELECT *
 FROM INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS
 */
-namespace LinqToDB.DataProvider.SqlCe
+namespace LinqToDB_2_9_6.DataProvider.SqlCe
 {
 	using Common;
 	using Data;

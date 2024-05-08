@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	public enum ConvertFlags
 	{

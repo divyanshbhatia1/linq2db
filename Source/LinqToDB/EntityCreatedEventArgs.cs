@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	/// <summary>
 	/// Provides data for the <see cref="IEntityServices.OnEntityCreated"/> event.

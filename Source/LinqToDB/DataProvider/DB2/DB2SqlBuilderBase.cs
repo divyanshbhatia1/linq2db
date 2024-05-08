@@ -4,7 +4,7 @@ using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.DataProvider.DB2
+namespace LinqToDB_2_9_6.DataProvider.DB2
 {
 	using SqlQuery;
 	using SqlProvider;

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LinqToDB.Configuration
+namespace LinqToDB_2_9_6.Configuration
 {
 	/// <summary>
 	/// Data provider configuration provider.

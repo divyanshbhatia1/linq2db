@@ -11,12 +11,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Mapping;
 
 namespace InformixDataContext
 {
-	public partial class Linq2dbDB : LinqToDB.Data.DataConnection
+	public partial class Linq2dbDB : LinqToDB_2_9_6.Data.DataConnection
 	{
 		public ITable<Alltype>           Alltypes           { get { return this.GetTable<Alltype>(); } }
 		public ITable<Child>             Children           { get { return this.GetTable<Child>(); } }

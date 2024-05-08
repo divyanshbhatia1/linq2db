@@ -4,7 +4,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Linq;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	public class DataReader : IDisposable
 	{

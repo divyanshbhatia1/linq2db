@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LinqToDB.DataProvider.Sybase
+namespace LinqToDB_2_9_6.DataProvider.Sybase
 {
 	using Data;
 	using Mapping;

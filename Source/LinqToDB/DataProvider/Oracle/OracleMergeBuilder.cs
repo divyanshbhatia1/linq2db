@@ -1,9 +1,9 @@
-﻿using LinqToDB.Data;
-using LinqToDB.SqlProvider;
+﻿using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.SqlProvider;
 using System;
 using System.Linq.Expressions;
 
-namespace LinqToDB.DataProvider.Oracle
+namespace LinqToDB_2_9_6.DataProvider.Oracle
 {
 	class OracleMergeBuilder<TTarget, TSource> : BasicMergeBuilder<TTarget, TSource>
 		where TTarget : class

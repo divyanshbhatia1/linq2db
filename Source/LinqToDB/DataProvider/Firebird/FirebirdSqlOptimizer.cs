@@ -1,4 +1,4 @@
-﻿namespace LinqToDB.DataProvider.Firebird
+﻿namespace LinqToDB_2_9_6.DataProvider.Firebird
 {
 	using Extensions;
 	using SqlProvider;

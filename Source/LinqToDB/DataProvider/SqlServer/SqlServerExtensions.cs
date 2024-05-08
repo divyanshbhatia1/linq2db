@@ -1,10 +1,10 @@
-using LinqToDB.Linq;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Mapping;
 using System;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	public interface ISqlServerExtensions
 	{

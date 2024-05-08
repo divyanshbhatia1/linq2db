@@ -1,5 +1,5 @@
-﻿using LinqToDB;
-using LinqToDB.Mapping;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Mapping;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;

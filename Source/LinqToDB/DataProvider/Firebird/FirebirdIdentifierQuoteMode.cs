@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.DataProvider.Firebird
+namespace LinqToDB_2_9_6.DataProvider.Firebird
 {
 	/// <summary>
 	/// Possible modes for Firebird identifier quotes. This enumeration covers only identifier quotation logic

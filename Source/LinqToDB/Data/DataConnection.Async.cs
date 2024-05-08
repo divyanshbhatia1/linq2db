@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using Async;
 	using DbCommandProcessor;

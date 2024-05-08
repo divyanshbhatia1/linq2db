@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	using Data;
 	using SchemaProvider;

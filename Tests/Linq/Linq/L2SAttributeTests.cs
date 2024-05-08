@@ -6,8 +6,8 @@ using System.Data.Linq.Mapping;
 using System.Data;
 #endif
 
-using LinqToDB;
-using LinqToDB.Common;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
 
 using NUnit.Framework;
 

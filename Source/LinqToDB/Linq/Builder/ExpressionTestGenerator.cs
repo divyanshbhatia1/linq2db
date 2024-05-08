@@ -7,10 +7,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	using Extensions;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 
 	class ExpressionTestGenerator
 	{

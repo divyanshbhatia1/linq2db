@@ -4,10 +4,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	using Extensions;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using SqlQuery;
 
 	class UpdateBuilder : MethodCallBuilder

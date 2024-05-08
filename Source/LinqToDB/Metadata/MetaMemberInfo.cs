@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	class MetaMemberInfo
 	{

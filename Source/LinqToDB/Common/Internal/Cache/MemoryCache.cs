@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Common.Internal.Cache
+namespace LinqToDB_2_9_6.Common.Internal.Cache
 {
     /// <summary>
     /// An implementation of <see cref="IMemoryCache"/> using a dictionary to

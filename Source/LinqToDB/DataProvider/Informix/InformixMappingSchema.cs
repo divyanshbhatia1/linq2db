@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace LinqToDB.DataProvider.Informix
+namespace LinqToDB_2_9_6.DataProvider.Informix
 {
 	using Mapping;
 	using SqlQuery;

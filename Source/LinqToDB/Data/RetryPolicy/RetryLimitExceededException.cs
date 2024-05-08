@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace LinqToDB.Data.RetryPolicy
+namespace LinqToDB_2_9_6.Data.RetryPolicy
 {
 	public class RetryLimitExceededException : LinqToDBException
 	{

@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	/// <summary>
 	/// Explicit data context <see cref="DataContext"/> transaction wrapper.

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace LinqToDB.SchemaProvider
+namespace LinqToDB_2_9_6.SchemaProvider
 {
 	[DebuggerDisplay("CatalogName = {CatalogName}, SchemaName = {SchemaName}, TableName = {TableName}, IsDefaultSchema = {IsDefaultSchema}, IsView = {IsView}, Description = {Description}")]
 	public class TableInfo

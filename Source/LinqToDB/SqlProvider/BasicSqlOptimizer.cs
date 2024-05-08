@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 // ReSharper disable InconsistentNaming
 
-namespace LinqToDB.SqlProvider
+namespace LinqToDB_2_9_6.SqlProvider
 {
 	using Common;
 	using Extensions;

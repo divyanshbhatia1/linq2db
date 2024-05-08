@@ -5,9 +5,9 @@ using System.IO;
 using System.Linq.Expressions;
 using System.Text;
 using System.Xml;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	using Common;
 	using Expressions;

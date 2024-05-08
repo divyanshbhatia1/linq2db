@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 using System.Collections;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6.SqlQuery;
 
-using LinqToDB.Data;
-using LinqToDB.DataProvider;
-using LinqToDB.Extensions;
-using LinqToDB.Mapping;
-using LinqToDB.SchemaProvider;
-using LinqToDB.SqlProvider;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SchemaProvider;
+using LinqToDB_2_9_6.SqlProvider;
 
 namespace Tests
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	using SqlQuery;
 	using SqlProvider;

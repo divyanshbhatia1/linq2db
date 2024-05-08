@@ -4,7 +4,7 @@ using System.Data.SqlTypes;
 using System.Globalization;
 using System.Text;
 
-namespace LinqToDB.SqlProvider
+namespace LinqToDB_2_9_6.SqlProvider
 {
 	using Common;
 	using Extensions;

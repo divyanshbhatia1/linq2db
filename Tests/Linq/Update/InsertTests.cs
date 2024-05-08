@@ -3,11 +3,11 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.SqlServer;
-using LinqToDB.Linq;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 

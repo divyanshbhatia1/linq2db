@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB;
-using LinqToDB.Mapping;
-using LinqToDB.Tools;
-using LinqToDB.Tools.Comparers;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools;
+using LinqToDB_2_9_6.Tools.Comparers;
 
 using NUnit.Framework;
 

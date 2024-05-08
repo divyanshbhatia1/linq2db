@@ -3,10 +3,10 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Data.RetryPolicy;
-using LinqToDB.DataProvider.SqlServer;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Data.RetryPolicy;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
 
 using NUnit.Framework;
 

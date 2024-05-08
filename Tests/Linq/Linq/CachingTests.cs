@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB;
-using LinqToDB.Expressions;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Expressions;
 
 using NUnit.Framework;
 

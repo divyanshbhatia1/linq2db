@@ -3,7 +3,7 @@ using System.Data;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Async
+namespace LinqToDB_2_9_6.Async
 {
 	/// <summary>
 	/// Asynchronous version of the <see cref="IDbTransaction"/> interface, allowing asynchronous operations,

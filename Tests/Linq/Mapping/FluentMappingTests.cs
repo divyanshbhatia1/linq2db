@@ -2,10 +2,10 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Linq;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Mapping;
 
 using NUnit.Framework;
 
@@ -548,13 +548,13 @@ namespace Tests.Mapping
 				db.MappingSchema.GetFluentMappingBuilder()
 
 				   .Entity<BaseClass>().HasTableName("my_table")
-				   .HasAttribute(new LinqToDB.Mapping.InheritanceMappingAttribute()
+				   .HasAttribute(new LinqToDB_2_9_6.Mapping.InheritanceMappingAttribute()
 				   {
 					   IsDefault = true,
 					   Type = typeof(DerivedClass),
 					   Code = GenericItemType.DerivedClass
 				   })
-				   .HasAttribute(new LinqToDB.Mapping.InheritanceMappingAttribute()
+				   .HasAttribute(new LinqToDB_2_9_6.Mapping.InheritanceMappingAttribute()
 				   {
 					   Type = typeof(DerivedClass1),
 					   Code = GenericItemType.DerivedClass1
@@ -589,7 +589,7 @@ namespace Tests.Mapping
 			{
 				db.MappingSchema.GetFluentMappingBuilder()
 				   .Entity<BaseClass>().HasTableName("my_table")
-				   .HasAttribute(new LinqToDB.Mapping.InheritanceMappingAttribute()
+				   .HasAttribute(new LinqToDB_2_9_6.Mapping.InheritanceMappingAttribute()
 				   {
 					   IsDefault = true,
 					   Type = typeof(DerivedClass),

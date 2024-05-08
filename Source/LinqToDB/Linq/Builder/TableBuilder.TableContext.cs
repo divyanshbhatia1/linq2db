@@ -7,10 +7,10 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	using Extensions;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using Mapping;
 	using Reflection;
 	using SqlQuery;

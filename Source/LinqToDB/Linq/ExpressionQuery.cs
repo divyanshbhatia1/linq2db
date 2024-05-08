@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	using Async;
 	using Extensions;

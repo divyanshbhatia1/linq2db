@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	public static class SqlServerConfiguration
 	{

@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	using Expressions;
 	using Extensions;

@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using Async;
 	using Common;
@@ -569,20 +569,20 @@ namespace LinqToDB.Data
 		{
 			_configurationIDs = new ConcurrentDictionary<string,int>();
 
-			LinqToDB.DataProvider.SqlServer. SqlServerTools. GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.SqlServer. SqlServerTools. GetDataProvider();
 #if !NETSTANDARD1_6 && !NETSTANDARD2_0
 			LinqToDB.DataProvider.Access.    AccessTools.    GetDataProvider();
 #endif
-			LinqToDB.DataProvider.SqlCe.     SqlCeTools.     GetDataProvider();
-			LinqToDB.DataProvider.Firebird.  FirebirdTools.  GetDataProvider();
-			LinqToDB.DataProvider.MySql.     MySqlTools.     GetDataProvider();
-			LinqToDB.DataProvider.SQLite.    SQLiteTools.    GetDataProvider();
-			LinqToDB.DataProvider.Sybase.    SybaseTools.    GetDataProvider();
-			LinqToDB.DataProvider.Oracle.    OracleTools.    GetDataProvider();
-			LinqToDB.DataProvider.PostgreSQL.PostgreSQLTools.GetDataProvider();
-			LinqToDB.DataProvider.DB2.       DB2Tools.       GetDataProvider();
-			LinqToDB.DataProvider.Informix.  InformixTools.  GetDataProvider();
-			LinqToDB.DataProvider.SapHana.   SapHanaTools.   GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.SqlCe.     SqlCeTools.     GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.Firebird.  FirebirdTools.  GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.MySql.     MySqlTools.     GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.SQLite.    SQLiteTools.    GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.Sybase.    SybaseTools.    GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.Oracle.    OracleTools.    GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.PostgreSQL.PostgreSQLTools.GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.DB2.       DB2Tools.       GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.Informix.  InformixTools.  GetDataProvider();
+			LinqToDB_2_9_6.DataProvider.SapHana.   SapHanaTools.   GetDataProvider();
 
 			var section = DefaultSettings;
 

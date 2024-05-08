@@ -4,7 +4,7 @@
 using System;
 using System.Threading;
 
-namespace LinqToDB.Common.Internal.Cache
+namespace LinqToDB_2_9_6.Common.Internal.Cache
 {
     internal class CacheEntryHelper
     {

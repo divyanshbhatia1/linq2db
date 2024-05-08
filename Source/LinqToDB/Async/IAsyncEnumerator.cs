@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Async
+namespace LinqToDB_2_9_6.Async
 {
 	/// <summary>
 	/// Asynchronous version of the IEnumerator&lt;T&gt; interface, allowing elements to be retrieved asynchronously.

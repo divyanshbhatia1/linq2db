@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	public class SqlSelectStatement : SqlStatementWithQueryBase
 	{

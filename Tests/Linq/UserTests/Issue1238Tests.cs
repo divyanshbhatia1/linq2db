@@ -8,8 +8,8 @@ using Tests.xUpdate;
 
 namespace Tests.UserTests
 {
-	using LinqToDB;
-	using LinqToDB.Mapping;
+	using LinqToDB_2_9_6;
+	using LinqToDB_2_9_6.Mapping;
 
 	[TestFixture]
 	public class Issue1238Tests : TestBase

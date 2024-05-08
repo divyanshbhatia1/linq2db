@@ -4,7 +4,7 @@ using System.Data;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.SchemaProvider
+namespace LinqToDB_2_9_6.SchemaProvider
 {
 	[PublicAPI]
 	public class DatabaseSchema

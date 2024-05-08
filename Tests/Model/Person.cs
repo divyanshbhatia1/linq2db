@@ -1,7 +1,7 @@
 ﻿using System;
 
-using LinqToDB;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Mapping;
 
 namespace Tests.Model
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using NUnit.Framework;
 
@@ -13,13 +13,13 @@ namespace Tests.Linq
 		[OneTimeSetUp]
 		public void SetUp()
 		{
-			LinqToDB.Common.Configuration.Linq.GenerateExpressionTest = true;
+			LinqToDB_2_9_6.Common.Configuration.Linq.GenerateExpressionTest = true;
 		}
 
 		[OneTimeTearDown]
 		public void TearDown()
 		{
-			LinqToDB.Common.Configuration.Linq.GenerateExpressionTest = false;
+			LinqToDB_2_9_6.Common.Configuration.Linq.GenerateExpressionTest = false;
 		}
 
 		[Test]

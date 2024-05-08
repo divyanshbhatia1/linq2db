@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.DataProvider.Oracle
+namespace LinqToDB_2_9_6.DataProvider.Oracle
 {
 	using Configuration;
 	using Common;

@@ -5,12 +5,12 @@ using System.Linq.Expressions;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using Linq;
 	using Expressions;
 
-	using PN = LinqToDB.ProviderName;
+	using PN = LinqToDB_2_9_6.ProviderName;
 
 	public static partial class Sql
 	{

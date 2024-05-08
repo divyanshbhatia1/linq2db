@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	using Extensions;
 	using SqlProvider;

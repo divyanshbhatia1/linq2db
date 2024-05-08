@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Linq.Expressions;
-using LinqToDB.Data;
+using LinqToDB_2_9_6.Data;
 
-namespace LinqToDB.Common
+namespace LinqToDB_2_9_6.Common
 {
 	using Mapping;
 

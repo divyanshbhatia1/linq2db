@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB.Mapping;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SqlQuery;
 using NUnit.Framework;
 
 namespace Tests.UserTests

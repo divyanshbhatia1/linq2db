@@ -2,10 +2,10 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	using Common;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 
 	class OrderByBuilder : MethodCallBuilder
 	{

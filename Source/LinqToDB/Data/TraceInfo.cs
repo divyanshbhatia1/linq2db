@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	using System.Data;
 

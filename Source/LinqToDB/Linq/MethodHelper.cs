@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	public static class MethodHelper
 	{

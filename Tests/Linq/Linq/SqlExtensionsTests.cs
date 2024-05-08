@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SqlQuery;
 using NUnit.Framework;
 
 namespace Tests.Linq

@@ -4,10 +4,10 @@ using System.Data;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
 	using Common;
-	using LinqToDB.Extensions;
+	using LinqToDB_2_9_6.Extensions;
 	using Mapping;
 
 	class ConvertFromDataReaderExpression : Expression

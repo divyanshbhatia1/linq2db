@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.SqlServer;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.SqlServer;
+using LinqToDB_2_9_6.Mapping;
 
 #if !NETSTANDARD1_6
 using Microsoft.SqlServer.Types;

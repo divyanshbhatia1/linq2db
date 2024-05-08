@@ -1,6 +1,6 @@
-﻿using LinqToDB;
-using LinqToDB.DataProvider.MySql;
-using LinqToDB.Mapping;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.DataProvider.MySql;
+using LinqToDB_2_9_6.Mapping;
 using NUnit.Framework;
 using System.Linq;
 

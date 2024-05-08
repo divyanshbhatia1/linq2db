@@ -4,11 +4,11 @@ using System.Linq;
 
 using JetBrains.Annotations;
 
-using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Linq;
-using LinqToDB.Mapping;
-using LinqToDB.Tools.Comparers;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Linq;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools.Comparers;
 
 using Newtonsoft.Json;
 

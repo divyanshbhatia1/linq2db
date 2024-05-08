@@ -18,11 +18,11 @@ using JetBrains.Annotations;
 // ReSharper disable RedundantLambdaParameterType
 #endregion
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	using Common;
 	using Extensions;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using Mapping;
 
 	[PublicAPI]

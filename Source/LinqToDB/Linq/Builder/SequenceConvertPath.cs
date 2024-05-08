@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	[DebuggerDisplay("Path = {Path}, Expr = {Expr}, Level = {Level}")]
 	public class SequenceConvertPath

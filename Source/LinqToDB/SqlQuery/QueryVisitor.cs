@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	public class QueryVisitor
 	{

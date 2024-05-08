@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
 	using Common;
 	using Mapping;

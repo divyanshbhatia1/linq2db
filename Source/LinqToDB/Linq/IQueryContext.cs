@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	using SqlQuery;
 

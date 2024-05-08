@@ -7,7 +7,7 @@ using System.Linq;
 // ReSharper disable SuggestUseVarKeywordEvident
 #endregion
 
-namespace LinqToDB.DataProvider.Firebird
+namespace LinqToDB_2_9_6.DataProvider.Firebird
 {
 	using Common;
 	using SqlQuery;

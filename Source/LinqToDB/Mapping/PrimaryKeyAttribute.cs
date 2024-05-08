@@ -1,6 +1,6 @@
 using System;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	/// <summary>
 	/// Marks property or field as a member of primary key for current mapping type.

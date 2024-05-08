@@ -1,10 +1,10 @@
-﻿using LinqToDB.Data;
-using LinqToDB.Mapping;
-using LinqToDB.SqlProvider;
-using LinqToDB.SqlQuery;
+﻿using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SqlProvider;
+using LinqToDB_2_9_6.SqlQuery;
 using System;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	class SqlServerMergeBuilder<TTarget, TSource> : BasicMergeBuilder<TTarget, TSource>
 		where TTarget : class

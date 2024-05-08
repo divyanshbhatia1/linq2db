@@ -5,7 +5,7 @@ using System.Data.Common;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.SchemaProvider
+namespace LinqToDB_2_9_6.SchemaProvider
 {
 	using Common;
 	using Data;

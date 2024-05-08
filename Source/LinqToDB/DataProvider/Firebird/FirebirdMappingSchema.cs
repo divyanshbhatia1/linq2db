@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace LinqToDB.DataProvider.Firebird
+namespace LinqToDB_2_9_6.DataProvider.Firebird
 {
 	using Mapping;
 	using SqlQuery;

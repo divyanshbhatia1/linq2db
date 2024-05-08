@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	public static class Internals
 	{

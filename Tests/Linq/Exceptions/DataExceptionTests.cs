@@ -3,7 +3,7 @@
 using System;
 using System.Linq;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using MySqlData::MySql.Data.MySqlClient;
 
@@ -21,7 +21,7 @@ namespace Tests.Exceptions
 		{
 			try
 			{
-				using (var db = LinqToDB.DataProvider.MySql.MySqlTools.CreateDataConnection(
+				using (var db = LinqToDB_2_9_6.DataProvider.MySql.MySqlTools.CreateDataConnection(
 					"Server=DBHost;Port=3306;Database=nodatabase;Uid=bltoolkit;Pwd=TestPassword;"))
 				{
 					db.GetTable<Person>().ToList();

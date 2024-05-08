@@ -8,7 +8,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\Source\LinqToDB.Tools\LinqToDB.Tools.csproj" />
-		<ProjectReference Include="..\..\Source\LinqToDB\LinqToDB.csproj" />
+		<ProjectReference Include="..\..\Source\LinqToDB\LinqToDB_2_9_6.csproj" />
 
 		<PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
 

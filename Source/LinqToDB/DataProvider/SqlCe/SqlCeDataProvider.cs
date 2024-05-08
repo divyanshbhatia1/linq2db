@@ -5,9 +5,9 @@ using System.Data.SqlTypes;
 using System.Linq.Expressions;
 using System.Xml;
 using System.Xml.Linq;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Extensions;
 
-namespace LinqToDB.DataProvider.SqlCe
+namespace LinqToDB_2_9_6.DataProvider.SqlCe
 {
 	using Data;
 	using Common;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.Data.DbCommandProcessor
+namespace LinqToDB_2_9_6.Data.DbCommandProcessor
 {
 	[PublicAPI]
 	public interface IDbCommandProcessor

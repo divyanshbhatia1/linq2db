@@ -8,12 +8,12 @@ using System.Reflection;
 
 using JetBrains.Annotations;
 
-using PN = LinqToDB.ProviderName;
+using PN = LinqToDB_2_9_6.ProviderName;
 
 // ReSharper disable CheckNamespace
 // ReSharper disable RedundantNameQualifier
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using Extensions;
 	using Expressions;

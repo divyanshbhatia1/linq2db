@@ -6,9 +6,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Expressions
+namespace LinqToDB_2_9_6.Expressions
 {
-	using LinqToDB.Extensions;
+	using LinqToDB_2_9_6.Extensions;
 	using Linq;
 	using Linq.Builder;
 	using Mapping;

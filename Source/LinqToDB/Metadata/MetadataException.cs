@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	/// <summary>
 	/// Defines the base class for the namespace exceptions.

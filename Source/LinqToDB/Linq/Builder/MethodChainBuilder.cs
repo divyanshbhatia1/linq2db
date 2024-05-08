@@ -4,12 +4,12 @@ using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using LinqToDB.Extensions;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6.Extensions;
+using LinqToDB_2_9_6.SqlQuery;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 
 	class MethodChainBuilder : MethodCallBuilder
 	{

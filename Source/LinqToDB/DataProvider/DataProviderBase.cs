@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	using Data;
 	using Common;

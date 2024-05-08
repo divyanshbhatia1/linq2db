@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	public class ReaderInfo : IEquatable<ReaderInfo>
 	{

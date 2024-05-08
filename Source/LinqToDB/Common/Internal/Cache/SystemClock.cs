@@ -3,7 +3,7 @@
 
 using System;
 
-namespace LinqToDB.Common.Internal.Cache
+namespace LinqToDB_2_9_6.Common.Internal.Cache
 {
     /// <summary>
     /// Provides access to the normal system clock.

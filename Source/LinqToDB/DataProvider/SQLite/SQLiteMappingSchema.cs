@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	using Mapping;
 	using SqlQuery;

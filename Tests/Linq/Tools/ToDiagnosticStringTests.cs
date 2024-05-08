@@ -1,6 +1,6 @@
 ﻿using System;
 
-using LinqToDB.Tools;
+using LinqToDB_2_9_6.Tools;
 
 using NUnit.Framework;
 

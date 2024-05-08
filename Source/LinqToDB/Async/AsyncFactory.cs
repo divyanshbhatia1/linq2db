@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
-using LinqToDB.Common;
-using LinqToDB.Expressions;
-using LinqToDB.Extensions;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Extensions;
 using System;
 using System.Collections.Concurrent;
 using System.Data;
@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.Async
+namespace LinqToDB_2_9_6.Async
 {
 	/// <summary>
 	/// Provides factory methods to create async wrappers for <see cref="IDbConnection"/> and <see cref="IDbTransaction"/> instances.

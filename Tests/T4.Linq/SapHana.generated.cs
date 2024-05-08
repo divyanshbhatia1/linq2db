@@ -13,15 +13,15 @@ using System.Data;
 using System.Linq;
 using System.Reflection;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.SapHana;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.SapHana;
+using LinqToDB_2_9_6.Mapping;
 
 namespace SapHanaDataContext
 {
-	public partial class SYSTEMDBDB : LinqToDB.Data.DataConnection
+	public partial class SYSTEMDBDB : LinqToDB_2_9_6.Data.DataConnection
 	{
 		public ITable<AllType>                                            AllTypes                               { get { return this.GetTable<AllType>(); } }
 		public ITable<AllTypesGeo>                                        AllTypesGeos                           { get { return this.GetTable<AllTypesGeo>(); } }

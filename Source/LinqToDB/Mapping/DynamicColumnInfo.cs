@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Reflection;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 #if !NETSTANDARD1_6
 

@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 #pragma warning disable 3010
 #endif
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	using SqlQuery;
 

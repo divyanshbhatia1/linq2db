@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Data
+namespace LinqToDB_2_9_6.Data
 {
 	/// <summary>
 	/// Tracing steps for the <see cref="DataConnection"/> trace events.

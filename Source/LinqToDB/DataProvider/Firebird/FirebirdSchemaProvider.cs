@@ -5,7 +5,7 @@ using System.Data.Common;
 using System.IO;
 using System.Linq;
 
-namespace LinqToDB.DataProvider.Firebird
+namespace LinqToDB_2_9_6.DataProvider.Firebird
 {
 	using Common;
 	using Data;

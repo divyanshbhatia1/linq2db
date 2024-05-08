@@ -1,7 +1,7 @@
-﻿using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.Mapping;
-using LinqToDB.SchemaProvider;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SchemaProvider;
 using NUnit.Framework;
 using System;
 using System.Linq;

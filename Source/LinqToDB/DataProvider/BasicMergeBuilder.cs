@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	using Data;
 	using Expressions;

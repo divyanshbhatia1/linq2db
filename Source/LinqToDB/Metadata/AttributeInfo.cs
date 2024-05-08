@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.Metadata
+namespace LinqToDB_2_9_6.Metadata
 {
 	using Common;
 	using Extensions;

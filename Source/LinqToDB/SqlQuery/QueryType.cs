@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	public enum QueryType
 	{

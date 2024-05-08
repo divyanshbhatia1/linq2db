@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	// TODO: V2 - why it allows Class and Interface as target?
 	// TODO: right now we can reference other aliases and create a loop, that will lead to stack overflow exception

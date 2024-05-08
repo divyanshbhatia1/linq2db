@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.Common;
 using System.Linq.Expressions;
 
-namespace LinqToDB.DataProvider.DB2
+namespace LinqToDB_2_9_6.DataProvider.DB2
 {
 	using Configuration;
 	using Data;

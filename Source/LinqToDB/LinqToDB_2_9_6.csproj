@@ -3,10 +3,10 @@
 	<Import Project="..\..\Build\linq2db.Source.props" />
 
 	<PropertyGroup>
-		<AssemblyName>linq2db</AssemblyName>
-		<RootNamespace>LinqToDB</RootNamespace>
+		<AssemblyName>linq2db_2_9_6</AssemblyName>
+		<RootNamespace>LinqToDB_2_9_6</RootNamespace>
 
-		<PackageId>linq2db</PackageId>
+		<PackageId>linq2db_2_9_6</PackageId>
 
 		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\linq2db.xml</DocumentationFile>
 		<!--https://github.com/dotnet/project-system/issues/1358-->
@@ -45,13 +45,13 @@
 
 	<!-- .NET Framework -->
 
-	<ItemGroup Condition=" '$(TargetFramework)' == 'net45' OR '$(TargetFramework)' == 'net46' ">
+	<!--<ItemGroup Condition=" '$(TargetFramework)' == 'net45' OR '$(TargetFramework)' == 'net46' ">
 		<Compile Remove="Metadata\SystemComponentModelDataAnnotationsSchemaAttributeReader.cs" />
 	</ItemGroup>
 
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
 		<Compile Include="Compatibility\System\Threading\AsyncLocal.cs" />
-	</ItemGroup>
+	</ItemGroup>-->
 
 
 	<!-- .NET Core -->
@@ -94,5 +94,9 @@
 		<PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
 		<PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
 		<PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
 	</ItemGroup>
 </Project>

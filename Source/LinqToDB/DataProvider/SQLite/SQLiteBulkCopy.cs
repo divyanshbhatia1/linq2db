@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	using Data;
 

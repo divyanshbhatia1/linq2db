@@ -1,6 +1,6 @@
 using System;
 
-namespace LinqToDB.Reflection
+namespace LinqToDB_2_9_6.Reflection
 {
 	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
 	public class ObjectFactoryAttribute : Attribute

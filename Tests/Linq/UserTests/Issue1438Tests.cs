@@ -1,6 +1,6 @@
-﻿using LinqToDB;
-using LinqToDB.Data;
-using LinqToDB.DataProvider.PostgreSQL;
+﻿using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider.PostgreSQL;
 using Npgsql;
 using NUnit.Framework;
 using System.Linq;

@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	/// <summary>
 	///     Detects the exceptions caused by SQL Server transient failures.

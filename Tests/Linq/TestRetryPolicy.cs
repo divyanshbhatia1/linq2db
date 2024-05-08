@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-using LinqToDB.Data.RetryPolicy;
+using LinqToDB_2_9_6.Data.RetryPolicy;
 
 namespace Tests
 {

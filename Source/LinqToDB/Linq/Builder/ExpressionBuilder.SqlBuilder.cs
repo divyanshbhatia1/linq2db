@@ -6,13 +6,13 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
-using LinqToDB.SqlProvider;
+using LinqToDB_2_9_6.SqlProvider;
 
-namespace LinqToDB.Linq.Builder
+namespace LinqToDB_2_9_6.Linq.Builder
 {
 	using Common;
 	using Data;
-	using LinqToDB.Expressions;
+	using LinqToDB_2_9_6.Expressions;
 	using Extensions;
 	using Mapping;
 	using Reflection;

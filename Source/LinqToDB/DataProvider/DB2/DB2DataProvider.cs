@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LinqToDB.DataProvider.DB2
+namespace LinqToDB_2_9_6.DataProvider.DB2
 {
 	using Data;
 	using Common;

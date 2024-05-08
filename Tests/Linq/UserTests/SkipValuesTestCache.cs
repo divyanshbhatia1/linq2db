@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Mapping;
 using NUnit.Framework;
 
-using LinqToDB;
-using LinqToDB.Linq;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Linq;
 
 namespace Tests.UserTests
 {

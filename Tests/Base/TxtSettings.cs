@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using LinqToDB.Configuration;
+using LinqToDB_2_9_6.Configuration;
 
 namespace Tests
 {

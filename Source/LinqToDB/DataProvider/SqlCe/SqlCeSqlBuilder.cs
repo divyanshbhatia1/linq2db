@@ -3,7 +3,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 
-namespace LinqToDB.DataProvider.SqlCe
+namespace LinqToDB_2_9_6.DataProvider.SqlCe
 {
 	using SqlQuery;
 	using SqlProvider;

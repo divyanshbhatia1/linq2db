@@ -6,13 +6,13 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider;
-using LinqToDB.Mapping;
-using LinqToDB.SchemaProvider;
-using LinqToDB.SqlProvider;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.SchemaProvider;
+using LinqToDB_2_9_6.SqlProvider;
 
 using NUnit.Framework;
 

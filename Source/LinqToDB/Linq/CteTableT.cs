@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Text;
 
-namespace LinqToDB.Linq
+namespace LinqToDB_2_9_6.Linq
 {
 	class CteTable<T> : ExpressionQuery<T>
 	{

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-using LinqToDB;
+using LinqToDB_2_9_6;
 
 using NUnit.Framework;
 
@@ -163,7 +163,7 @@ namespace Tests.Linq
 		{
 			try
 			{
-				LinqToDB.Common.Configuration.Linq.DoNotClearOrderBys = true;
+				LinqToDB_2_9_6.Common.Configuration.Linq.DoNotClearOrderBys = true;
 
 				using (var db = GetDataContext(context))
 				{
@@ -185,7 +185,7 @@ namespace Tests.Linq
 			}
 			finally
 			{
-				LinqToDB.Common.Configuration.Linq.DoNotClearOrderBys = false;
+				LinqToDB_2_9_6.Common.Configuration.Linq.DoNotClearOrderBys = false;
 			}
 		}
 

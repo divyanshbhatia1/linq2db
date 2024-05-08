@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace LinqToDB.Reflection
+namespace LinqToDB_2_9_6.Reflection
 {
 	using Extensions;
 	using Mapping;

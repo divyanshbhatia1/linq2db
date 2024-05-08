@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace LinqToDB.SqlQuery
+namespace LinqToDB_2_9_6.SqlQuery
 {
 	[DebuggerDisplay("SQL = {" + nameof(SqlText) + "}")]
 	public class SelectQuery : ISqlTableSource

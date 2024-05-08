@@ -8,13 +8,13 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-using LinqToDB.Mapping;
+using LinqToDB_2_9_6.Mapping;
 
 using JetBrains.Annotations;
 
 using NotNull = JetBrains.Annotations.NotNullAttribute;
 
-namespace LinqToDB
+namespace LinqToDB_2_9_6
 {
 	using Common;
 	using Expressions;

@@ -1,6 +1,6 @@
 using System;
 
-namespace LinqToDB.Reflection
+namespace LinqToDB_2_9_6.Reflection
 {
 	public interface IObjectFactory
 	{

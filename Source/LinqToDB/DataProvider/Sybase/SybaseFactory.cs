@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.DataProvider.Sybase
+namespace LinqToDB_2_9_6.DataProvider.Sybase
 {
 	using System.Collections.Generic;
 	using System.Linq;

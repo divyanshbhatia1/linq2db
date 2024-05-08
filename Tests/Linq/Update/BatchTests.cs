@@ -1,7 +1,7 @@
 ﻿using System;
 
-using LinqToDB;
-using LinqToDB.Data;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Data;
 
 using NUnit.Framework;
 

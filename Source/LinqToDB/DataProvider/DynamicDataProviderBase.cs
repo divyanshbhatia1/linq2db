@@ -4,7 +4,7 @@ using System.Data.Common;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	using Configuration;
 	using Extensions;

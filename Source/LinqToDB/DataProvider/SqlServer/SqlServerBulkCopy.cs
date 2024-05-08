@@ -4,9 +4,9 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
 
-using LinqToDB.Configuration;
+using LinqToDB_2_9_6.Configuration;
 
-namespace LinqToDB.DataProvider.SqlServer
+namespace LinqToDB_2_9_6.DataProvider.SqlServer
 {
 	using Data;
 	using SqlProvider;

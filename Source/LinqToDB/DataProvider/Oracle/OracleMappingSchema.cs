@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace LinqToDB.DataProvider.Oracle
+namespace LinqToDB_2_9_6.DataProvider.Oracle
 {
 	using Common;
 	using Expressions;

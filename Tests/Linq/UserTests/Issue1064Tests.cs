@@ -1,10 +1,10 @@
-﻿using LinqToDB.Data;
+﻿using LinqToDB_2_9_6.Data;
 using NUnit.Framework;
 
 namespace Tests.UserTests
 {
-	using LinqToDB;
-	using LinqToDB.Mapping;
+	using LinqToDB_2_9_6;
+	using LinqToDB_2_9_6.Mapping;
 	using System.Linq;
 
 	public class Issue1064Tests : TestBase

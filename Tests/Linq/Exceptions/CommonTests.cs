@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.SqlQuery;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.SqlQuery;
 
 using NUnit.Framework;
 

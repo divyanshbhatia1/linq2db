@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.DataProvider.Oracle
+namespace LinqToDB_2_9_6.DataProvider.Oracle
 {
 	using System.Collections.Generic;
 	using System.Linq;

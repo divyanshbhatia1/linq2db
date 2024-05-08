@@ -3,14 +3,14 @@ using System.IO;
 using System.Linq.Expressions;
 using System.Reflection;
 using JetBrains.Annotations;
-using LinqToDB.Common;
+using LinqToDB_2_9_6.Common;
 
 #if NETSTANDARD1_6
 using System.Runtime.Loader;
 using System.Linq;
 #endif
 
-namespace LinqToDB.DataProvider
+namespace LinqToDB_2_9_6.DataProvider
 {
 	class AssemblyResolver
 	{

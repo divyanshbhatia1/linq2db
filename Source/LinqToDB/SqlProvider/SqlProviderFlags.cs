@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LinqToDB.SqlProvider
+namespace LinqToDB_2_9_6.SqlProvider
 {
 	using SqlQuery;
 	using System.Collections.Generic;

@@ -9,13 +9,13 @@ using System.Globalization;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-using LinqToDB;
-using LinqToDB.Common;
-using LinqToDB.Data;
-using LinqToDB.DataProvider;
-using LinqToDB.DataProvider.Oracle;
-using LinqToDB.Mapping;
-using LinqToDB.Tools;
+using LinqToDB_2_9_6;
+using LinqToDB_2_9_6.Common;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.DataProvider;
+using LinqToDB_2_9_6.DataProvider.Oracle;
+using LinqToDB_2_9_6.Mapping;
+using LinqToDB_2_9_6.Tools;
 
 using NUnit.Framework;
 
@@ -24,7 +24,7 @@ using Oracle.ManagedDataAccess.Types;
 
 namespace Tests.DataProvider
 {
-	using LinqToDB.Linq;
+	using LinqToDB_2_9_6.Linq;
 	using Model;
 
 	[TestFixture]

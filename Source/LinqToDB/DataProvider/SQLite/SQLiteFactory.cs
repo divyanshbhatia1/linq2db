@@ -3,7 +3,7 @@ using System.Collections.Specialized;
 
 using JetBrains.Annotations;
 
-namespace LinqToDB.DataProvider.SQLite
+namespace LinqToDB_2_9_6.DataProvider.SQLite
 {
 	using System.Collections.Generic;
 	using Configuration;

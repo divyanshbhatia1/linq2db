@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-using LinqToDB.Data;
-using LinqToDB.Expressions;
-using LinqToDB.Linq;
+using LinqToDB_2_9_6.Data;
+using LinqToDB_2_9_6.Expressions;
+using LinqToDB_2_9_6.Linq;
 
 using NUnit.Framework;
 

@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using JetBrains.Annotations;
 
-namespace LinqToDB.Mapping
+namespace LinqToDB_2_9_6.Mapping
 {
 	/// <summary>
 	/// Defines relation between tables or views.

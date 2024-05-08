@@ -5,7 +5,7 @@
 	using System.Linq.Expressions;
 
 	using NUnit.Framework;
-	using LinqToDB.Common;
+	using LinqToDB_2_9_6.Common;
 
 	[TestFixture]
 	public class Issue447Tests : TestBase
